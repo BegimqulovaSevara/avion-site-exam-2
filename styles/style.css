@@ -1,5 +1,37 @@
+/* Global styles */
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
 body{
-    color: #fff;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: #2A254B;
+}
+.main{
+    flex-grow: 1;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/* Header Section  */
+.header-container{
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .site-header{
     display: flex;
@@ -13,6 +45,15 @@ body{
     justify-content: space-between;
     list-style: none;
 }
+.site-header-list:last-child{
+    padding-right: 0;
+}
+.navigation{
+    width: 675px;
+    height: 22px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
 .site-navigation-list{
     list-style: none;
     display: flex;
@@ -22,21 +63,24 @@ body{
     text-decoration: none;
     color: #726E8D;
 }
+/* Design Section */
 .site-design-parent{
+    width: 1400px;
+    height: 584px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #fff;
     display: flex;
     list-style: none;
 }
 .site-design-information{
-    width: 1280px;
     height: 584px;
     background-color: #2A254B;
 }
 .site-design-name{
-    width: 513px;
     height: 90px;
 }
 .site-hero-block{
-    width: 170px;
     height: 56px;
     padding: 16px 32px 16px 32px;
     text-decoration: none;
@@ -44,9 +88,50 @@ body{
     background-color: #F9F9F926;
 }
 .site-design-image{
-    width: 520px;
     height: 584px;
 }
 .site-defferens-name{
     color: #2A254B;
+}
+
+/* DIFFERENS SECTION  */
+.differens-container{
+    width: 1400px;
+    height: 355px;
+    margin-top: 0;
+}
+.site-defferens-name {
+    text-align: center;
+    margin-top: 60px;
+}
+.differens-list{
+    width: 1400px;
+    margin-top: 50px;
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+}
+.differens-list-item {
+    width: 260px;
+    height: 124px;
+    margin-right: 120px;
+    margin-left: 0;
+}
+.differens-list-item:last-child{
+    margin-right: 0;
+}
+/* Ceramics Section */
+.ceramics-list {
+    width: 1400px;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+.ceramics-list-item {
+    width: 305px;
+    margin-right: 60px;
+    padding-left: 0;
+}
+.ceramics-list-item:last-child{
+    margin-right: 0;
 }
