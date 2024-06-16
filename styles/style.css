@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     color: #2A254B;
+    font-family: "Rajdhani", "Arial" sans-serif;
 }
 .main{
     flex-grow: 1;
@@ -51,6 +52,8 @@ body{
 .navigation{
     width: 675px;
     height: 22px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 22px;
     padding-bottom: 22px;
 }
@@ -121,6 +124,13 @@ body{
     margin-right: 0;
 }
 /* Ceramics Section */
+.ceramics{
+    margin-bottom: 56px;
+}
+.ceramics-title{
+    font-weight: 400;
+    font-size: 32px;
+}
 .ceramics-list {
     width: 1400px;
     padding-left: 0;
@@ -134,4 +144,46 @@ body{
 }
 .ceramics-list-item:last-child{
     margin-right: 0;
+}
+.ceramics-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-button{
+    margin-top: 42px;
+    padding: 16px 32px 16px 32px;
+    background-color: #F9F9F9;
+    text-decoration: none;
+    color: #2A254B;
+}
+/* populars section */
+.populars-title {
+    font-weight: 400;
+    font-size: 32px;
+}
+.populars-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.populars-list-item:not(:last-child){
+    margin-right: 20px;
+}
+/* club sections */
+.club {
+}
+.club-container {
+}
+.club-title {
+    text-align: center;
+}
+.club-paragraph {
+    text-align: center;
+}
+.club-form {
+}
+.form-input {
+}
+.form-button {
 }

@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avion</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- styles -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
@@ -83,9 +88,9 @@
         </section>
 
         <!-- Ceramics Section -->
-        <section>
+        <section class="ceramics">
             <div class="container ceramics-container">
-                <h2>New ceramics</h2>
+                <h2 class="ceramics-title">New ceramics</h2>
                 <ul class="ceramics-list">
                     <li class="ceramics-list-item">
                         <img src="./images/chair-photo.jpg" alt="chair-photo">
@@ -108,40 +113,42 @@
                         <p>£399/p>
                     </li>
                 </ul>
-                <a href="#">View collection</a>
+                <div class="ceramics-button"><a class="site-button" href="#">View collection</a></div>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <h2>Our popular products</h2>
-                <ul>
-                    <li>
-                        <img src="./images/Large.jpg" alt="sofa">
-                        <h3>The Poplar suede sofa</h3>
-                        <p>£980</p>
+        <!-- populars section -->
+        <section class="populars">
+            <div class="container populars-container">
+                <h2 class="populars-title">Our popular products</h2>
+                <ul class="populars-list">
+                    <li class="populars-list-item">
+                        <img class="populars-img" src="./images/Large.jpg" alt="sofa">
+                        <h3 class="populars-item-title">The Poplar suede sofa</h3>
+                        <p class="populars-item-paragraph">£980</p>
                     </li>
-                    <li>
-                        <img src="./images/chair-photo.jpg" alt="chair">
-                        <h3>The Dandy chair</h3>
-                        <p>£250</p>
-                    </li>
-                    <li>
-                        <img src="./images/blackchair-photo.jpg" alt="blackchair">
-                        <h3>The Dandy chair</h3>
-                        <p>£250</p>
+                    <li class="populars-list-item">
+                        <img class="populars-img" src="./images/chair-photo.jpg" alt="chair">
+                        <h3 class="populars-item-title">The Dandy chair</h3>
+                        <p class="populars-item-paragraph">£250</p>
+                    </li class="populars-list-item">
+                    <li class="populars-list-item">
+                        <img class="populars-img" src="./images/blackchair-photo.jpg" alt="blackchair">
+                        <h3 class="populars-item-title">The Dandy chair</h3>
+                        <p class="populars-item-paragraph">£250</p>
                     </li>
                 </ul>
-                <a href="#">View collection</a>
+                <div class="ceramics-button"><a class="site-button" href="#">View collection</a></div>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <h2>Join the club and get the benefits</h2>
-                <p>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
-                <div>
-                    <p>your@email.com</p>
-                    <a href="#">Sign up</a>
-                </div>
+        <!-- club section  -->
+        <section class="club">
+            <div class="container club-container">
+                <h2 class="club-title">Join the club and get the benefits</h2>
+                <p class="club-paragraph">Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
+                <form class="club-form" action="https://echo.htmlacademy.ru">
+                    <input class="form-input" type="email" placeholder="your@email.com">
+                    <button class="form-button" type="submit">Sign up</button>
+                </form>
             </div>
         </section>
         <section>
