@@ -6,7 +6,6 @@ html{
     height: 100%;
 }
 body{
-    width: 1440px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -25,15 +24,13 @@ body{
     padding-left: 60px;
     padding-right: 60px;
 }
-/* Header Section  */
-.header-container{
-    width: 100%;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+a{
+    text-decoration: none;
 }
+ul{
+    list-style: none;
+}
+/* Header Section  */
 .site-header{
     display: flex;
     justify-content: space-between;
@@ -49,14 +46,6 @@ body{
 .site-header-list:last-child{
     padding-right: 0;
 }
-.navigation{
-    width: 675px;
-    height: 22px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 22px;
-    padding-bottom: 22px;
-}
 .site-navigation-list{
     list-style: none;
     display: flex;
@@ -67,9 +56,7 @@ body{
     color: #726E8D;
 }
 /* Design Section */
-.site-design-parent{
-    width: 1400px;
-    height: 584px;
+.design__container{
     margin-top: 60px;
     margin-bottom: 60px;
     color: #fff;
@@ -77,8 +64,13 @@ body{
     list-style: none;
 }
 .site-design-information{
-    height: 584px;
+    padding-right: 98px;
+    padding-top: 60px;
+    padding-left: 60px;
     background-color: #2A254B;
+}
+.site-design__paragraph{
+    margin-top: 196px;
 }
 .site-design-name{
     height: 90px;
@@ -99,16 +91,19 @@ body{
 
 /* DIFFERENS SECTION  */
 .differens-container{
-    width: 1400px;
-    height: 355px;
     margin-top: 0;
+    padding-bottom: 86px;
+}
+.site-design-name{
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 40px;
 }
 .site-defferens-name {
     text-align: center;
     margin-top: 60px;
 }
 .differens-list{
-    width: 1400px;
     margin-top: 50px;
     padding-left: 0;
     display: flex;
@@ -132,14 +127,12 @@ body{
     font-size: 32px;
 }
 .ceramics-list {
-    width: 1400px;
     padding-left: 0;
     list-style: none;
     display: flex;
 }
 .ceramics-list-item {
-    width: 305px;
-    margin-right: 60px;
+    margin-right: 20px;
     padding-left: 0;
 }
 .ceramics-list-item:last-child{
@@ -158,6 +151,9 @@ body{
     color: #2A254B;
 }
 /* populars section */
+.populars{
+    padding-bottom: 48px;
+}
 .populars-title {
     font-weight: 400;
     font-size: 32px;
@@ -171,19 +167,96 @@ body{
     margin-right: 20px;
 }
 /* club sections */
-.club {
+.club{
+    background-color: #F9F9F9;
+    padding-bottom: 65px;
+    padding-top: 52px;
 }
 .club-container {
+    background-color: #fff;
+    padding-top: 68px;
+    padding-bottom: 54px;
 }
 .club-title {
     text-align: center;
+    font-weight: 400;
+    font-size: 36px;
 }
 .club-paragraph {
     text-align: center;
+    font-weight: 400;
+    font-size: 16px;
 }
 .club-form {
+    margin-top: 72px;
+    padding: 16px 32px 16px 32px;
+    display: flex;
+    justify-content: center;
 }
 .form-input {
+    width: 354px;
+    border: 0;
+    margin: 0;
+    background-color: #F9F9F9;
+    padding-left: 32px;
+    opacity: 0.2;
 }
 .form-button {
+    padding: 16px 32px 16px 32px;
+    background-color: #2A254B;
+    color: #fff;
+    border: 0;
+}
+/* BRAND SECTION */
+.brand {
+}
+.brand__container {
+    display: flex;
+}
+.brand__info {
+    padding-top: 72px;
+    padding-left: 84px;
+    margin-right: 100px;
+}
+.brand__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+.brand__paragraph {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.margin-paragraph{
+    margin-bottom: 196px;
+}
+.brand__link {
+    padding: 16px 32px 16px 32px;
+    text-decoration: none;
+    color: #2A254B;
+    background-color: #F9F9F9;
+}
+.brand__img {
+    width: 720px;
+    height: 603px;
+}
+/* FOOTER SECTION */
+.footer{
+    background-color: #2A254B;
+    color: #fff;
+}
+.footer__form{
+}
+.footer__input{
+    background-color: #726E8D;
+    color: #FFFFFF;
+    width: 354px;
+    border: 0;
+    margin: 0;
+    padding-left: 32px;
+}
+.footer__button{
+    background-color: #fff;
+    color: #2A254B;
 }
